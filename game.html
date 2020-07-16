@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>Memory Game</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/game.css">
+		<script src="js/game.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="container fluid">
+
+			<div class="row">
+
+				<div class="col-sm-8">
+
+					<table id="game-window">
+
+						<tbody>
+
+							<tr>
+								<td><img id="c1" src="photos/top.png" alt=""/></td>
+								<td><img id="c2" src="photos/top.png" alt=""/></td>
+								<td><img id="c3" src="photos/top.png" alt=""/></td>
+								<td><img id="c4" src="photos/top.png" alt=""/></td>
+								<td><img id="c5" src="photos/top.png" alt=""/></td>
+								<td><img id="c6" src="photos/top.png" alt=""/></td>
+								<td><img id="c7" src="photos/top.png" alt=""/></td>
+							</tr>
+
+							<tr>
+								<td><img id="c8" src="photos/top.png" alt=""/></td>
+								<td><img id="c9" src="photos/top.png" alt=""/></td>
+								<td><img id="c10" src="photos/top.png" alt=""/></td>
+								<td><img id="c11" src="photos/top.png" alt=""/></td>
+								<td><img id="c12" src="photos/top.png" alt=""/></td>
+								<td><img id="c13" src="photos/top.png" alt=""/></td>
+								<td><img id="c14" src="photos/top.png" alt=""/></td>
+							</tr>
+
+							<tr>
+								<td><img id="c15" src="photos/top.png" alt=""/></td>
+								<td><img id="c16" src="photos/top.png" alt=""/></td>
+								<td><img id="c17" src="photos/top.png" alt=""/></td>
+								<td><img id="c18" src="photos/top.png" alt=""/></td>
+								<td><img id="c19" src="photos/top.png" alt=""/></td>
+								<td><img id="c20" src="photos/top.png" alt=""/></td>
+								<td><img id="c21" src="photos/top.png" alt=""/></td>
+							</tr>
+
+							<tr>
+								<td><img id="c22" src="photos/top.png" alt=""/></td>
+								<td><img id="c23" src="photos/top.png" alt=""/></td>
+								<td><img id="c24" src="photos/top.png" alt=""/></td>
+								<td><img id="c25" src="photos/top.png" alt=""/></td>
+								<td><img id="c26" src="photos/top.png" alt=""/></td>
+								<td><img id="c27" src="photos/top.png" alt=""/></td>
+								<td><img id="c28" src="photos/top.png" alt=""/></td>
+							</tr>
+
+						</tbody>
+
+					</table>
+
+				</div>
+
+				<div class="col-sm-4" id="game-panel">
+
+					<h1>Memory G<span class="glyphicon glyphicon-th" id="logo"></span>me</h1>
+
+					<div class="row">
+
+						<div class="col-sm-6">
+
+							<button id="new-game" type="button" class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> New Game</button>
+							
+						</div>
+
+						<div class="col-sm-6">
+
+							<p>Clicks: <span id="score">0</span></p>
+							<p id="second-value">Best Clicks: <span id="best-score">0</span></p>
+
+						</div>
+
+					</div>
+
+					<div class="alert alert-danger alert-dismissible info">
+
+						<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+
+						<p id="rules-title"><span class="glyphicon glyphicon-comment"></span><strong> Rules!</strong></p>
+
+						<ul>
+							<li>You can click two cards in one move.</li>
+							<li>If you hit two identical cards, they will be visible.</li>
+							<li>The game ends if all 28 cards are visible.</li>
+							<li>Less clicks means better result.</li>
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html> 

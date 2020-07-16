@@ -1,0 +1,83 @@
+td {
+
+	padding: 5px;
+	border-radius: 15%;
+}
+
+h1 {
+
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+
+p {
+
+	font-size: 20px;
+}
+
+li {
+
+	margin-left: -15px;
+	margin-bottom: 3px;
+}
+
+img {
+
+	border-radius: 15%;
+	width: 70px;
+	height: 120px;
+}
+
+#second-value {
+
+	margin-left: -45px;
+}
+
+#new-game {
+
+	font-size: 15px;
+}
+
+#game-window, #game-panel {
+
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+
+	color: #7494bc;
+}
+
+#score, #best-score {
+
+	color: #7494bc;
+	font-size: 30px;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+#rules-title {
+
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.btn-primary {
+
+	background-color: #7494bc;
+	border-color: #7494bc;
+}
+
+.alert {
+
+	margin-top: 50px;
+}
+
+.glyphicon-comment {
+
+	font-size: 25px;
+	vertical-align: middle;
+}
